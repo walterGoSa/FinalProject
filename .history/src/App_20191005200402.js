@@ -15,8 +15,14 @@ const App = () => {
       <Provider store = {mainStore}>
           <Router>
             <div className="App">
+            {/* <Nav/> */}
             <Switch>
               <Route path="/" exact component={Home} />
+              {/* <Route path="/users" component={UserFunctional} />
+              <Route path="/about" component={About} />
+              <Route path="/gallery" exact component={Gallery} />
+              <Route path="/gallery/:id/:author" component={GalleryDetail} />
+              <Route component={NotFound} /> */}
             </Switch>
             </div>
             
