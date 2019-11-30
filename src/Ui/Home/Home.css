@@ -1,0 +1,15 @@
+.nav-items{
+    list-style: none;
+}
+.content-paddig{
+    padding: 0% !important;
+}
+.img-home-page{
+    max-height: 600px;
+}
+.container-home{
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
