@@ -5,11 +5,41 @@
     padding: 0% !important;
 }
 .img-home-page{
-    max-height: 600px;
+    width: 100vw;
+    height: 45vw;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
 }
-.container-home{
-    padding-left: 4%;
-    padding-right: 4%;
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
+.splash-content{
+    position: relative;
+    background-image: url('../../assets/splash.jpg');
+    background-size: 100% 100%;
+}
+
+.splash-content>.desc-float{
+    position: absolute;
+    left: 8em;
+    top: 15em;
+    z-index: 1;
+    width: 50%;
+    color: white;
+}
+.splash-content>.desc-float>p{
+    font-size: 18px;
+}
+
+.service-content{
+    padding: 3% 10% 10% 10%;
+    text-align: center;
+}
+
+.seg-img{
+    width: fit-content;
+    height: 170px !important;
+}
+
+.content-function{
+    width: 100%;
+    padding: 3% 10% 10% 10%;
+    background-color: rgb(249, 249, 249);
 }
